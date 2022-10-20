@@ -51,12 +51,21 @@ public class Lab04bvst extends Applet
         g.fillRect(200,460,60,30);
 
         g.fillRect(280,400,100,30);
+        g.fillRect(280,400,30,150);
+        g.fillRect(280,520,100,30);
 
-
+        g.fillRect(400,400,100,30);
+        g.fillRect(400,430,30,30);
+        g.fillRect(400,460,100,30);
+        g.fillRect(470,490,30,30);
+        g.fillRect(400,520,100,30);
 
 
         // DRAW PACMEN FLOWER
-
+        g.fillArc(540,150,100,100,40,270);
+        g.fillArc(400,150,100,100,220,270);
+        g.fillArc(470,82,100,100,130,270);
+        g.fillArc(470,215,100,100,320,270);
 
 
     }
